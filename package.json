@@ -1,0 +1,24 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./dist && parcel index.html",
+    "build": "rm -rf ./dist && parcel build index.html -d ./dist --public-url ./",
+    "deploy": "gh-pages -d ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "gh-pages": "^1.2.0",
+    "parcel-bundler": "^1.9.7"
+  }
+}
